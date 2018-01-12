@@ -39,6 +39,7 @@ import { LoginComponent } from './login/login.component';
 import { ProductFormComponent } from './admin/product-form/product-form.component';
 import { ProductFilterComponent } from './products/product-filter/product-filter.component';
 import { ProductCardComponent } from './product-card/product-card.component';
+import { ChoppingCartService } from './chopping-cart.service';
 
 
 
@@ -98,7 +99,8 @@ import { ProductCardComponent } from './product-card/product-card.component';
     UserService,
     AdminAuthGuard,
     CategoryService,
-    ProductService
+    ProductService,
+    ChoppingCartService,
   ],
   bootstrap: [AppComponent]
 })
